@@ -1,0 +1,39 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  display: block;
+  font-size: 16px;
+}
+.primary-heading {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  color: $text-color-dark-grey;
+  margin-bottom: 3.2rem;
+}
+.secondary-heading {
+  font-size: 4.8rem;
+  color: $text-color-dark-grey;
+  span {
+    color: $color-orange-darker;
+  }
+}
+.third-heading {
+  font-size: 3.2rem;
+  line-height: 1.25;
+  color: $text-color-dark-grey;
+}
+.subheading {
+  font-size: 2rem;
+  &-icon {
+    color: $color-orange-darker;
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+}
+.checkmark-icon {
+  color: $main-color-blue;
+  height: 2.4rem;
+  width: 2.4rem;
+}

@@ -1,0 +1,16 @@
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: $main-color-blue;
+  border-bottom: 2px solid $main-color-blue;
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding-bottom: 2px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+.link:hover,
+.link:active {
+  color: $color-orange;
+  border-bottom: 2px solid transparent;
+}

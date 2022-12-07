@@ -1,0 +1,51 @@
+.section-recommended {
+  margin-bottom: 9.6rem;
+  .recommended-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 9.6rem;
+    margin-top: 6.4rem;
+    // .items {
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    //   flex-direction: column;
+    //   width: 60%;
+    // }
+    .item {
+      overflow: hidden;
+      box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.075);
+      border-radius: 0.9rem;
+      transition: transform 0.4s, box-shadow 0.4s;
+      &:hover {
+        transform: translateY(-1.2rem);
+        // box-shadow: 0 3.2rem 6.4rem rgb(0 0 0 / 100%);
+        box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1%);
+      }
+      margin-bottom: 10rem;
+      &-details {
+        padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+      }
+      &-title {
+        font-weight: 700;
+        font-size: 2.4rem;
+      }
+      &-specs {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 2.4rem;
+        font-size: 1.8rem;
+        color: $text-color-light-grey;
+      }
+      &-img {
+        width: 100%;
+      }
+    }
+  }
+  .all-phones {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+}

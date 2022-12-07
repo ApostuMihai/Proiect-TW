@@ -1,0 +1,59 @@
+.section-customer-service {
+  background-color: $main-color-blue-lightest;
+  margin-bottom: 4.8rem;
+}
+.customer-service-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6.4rem;
+  align-items: center;
+  .customer-service-left {
+    .customer-service-img {
+      width: 100%;
+    }
+  }
+  .customer-service-middle {
+    &-list {
+      margin-top: 6rem;
+      list-style: none;
+      font-size: 2.4rem;
+      align-self: center;
+    }
+  }
+  .customer-service-right {
+    grid-column: 2/4;
+    .iframe-container {
+      display: flex;
+      flex-direction: row;
+      iframe {
+        width: 66%;
+      }
+      .iframe-tabs {
+        display: flex;
+        flex-direction: column;
+        & a {
+          width: 16rem;
+          text-decoration: none;
+          border: 5px double $main-color-blue;
+          border-left: none;
+          background-color: $main-color-blue-light;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          transition: all 700ms;
+        }
+        & a:hover {
+          background-color: $main-color-blue-lightest;
+          width: 20rem;
+          display: flex;
+          flex-direction: column;
+          // justify-content: center;
+          align-items: flex-end;
+        }
+        .tab div {
+          width: 16rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

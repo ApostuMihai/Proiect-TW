@@ -1,0 +1,27 @@
+{
+  "name": "proiect-tw---apostu-mihai-adrian",
+  "version": "1.0.0",
+  "description": "Proiect pt Tehnici Web",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass resurse/scss/main.scss resurse/css/style.css -w"
+  },
+  "keywords": [
+    "phone",
+    "tablet",
+    "samsung",
+    "apple",
+    "technology",
+    "gadgets"
+  ],
+  "author": "Apostu Mihai Adrian",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "js": "^0.1.0"
+  }
+}

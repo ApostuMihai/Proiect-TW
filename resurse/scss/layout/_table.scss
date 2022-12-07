@@ -1,0 +1,81 @@
+.section-table {
+  margin-bottom: 9.6rem;
+  .full-table {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 4.8rem;
+    table {
+      width: 70rem;
+      margin-top: 100px;
+      font-size: 18px;
+      // border: 1px solid #343a40;
+      border-collapse: collapse;
+      & tr {
+        transition: border 0.5s;
+      }
+      & tr:hover {
+        border: 5px solid rgba(0, 0, 0, 0.605);
+      }
+    }
+
+    .support-phone {
+      text-align: center;
+      transform: translateX(-10%);
+      font-weight: 700;
+    }
+    th,
+    td {
+      padding: 16px 24px;
+      text-align: left;
+    }
+
+    thead tr {
+      background-color: $main-color-blue;
+      color: #fff;
+    }
+
+    thead th {
+      width: 25%;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #f8f9fa;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #e9ecef;
+    }
+    tfoot tr {
+      background-color: #f8f9fa;
+    }
+    .testimonials {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 4.8rem;
+      .testimonial {
+        &-img {
+          width: 6rem;
+          border-radius: 100rem;
+        }
+        &-text {
+          color: $text-color-dark-grey;
+          font-size: 2rem;
+          line-height: 1.6;
+        }
+        &-name {
+          font-size: 1.6rem;
+          color: $text-color-light-grey;
+        }
+      }
+    }
+  }
+}
+.table-header {
+  text-align: center;
+}
+caption {
+  caption-side: bottom;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3.6rem;
+}

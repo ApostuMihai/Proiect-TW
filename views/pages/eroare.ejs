@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta
+      name="keywords"
+      content="phone, tablet, samsung, apple, technology, huawei, new phone, newest phone, newest iphone, android, ios, smartwatch, gadgets"
+    />
+    <meta name="description" content="Official mobile phone retailer." />
+    <title>BestPhone - Error</title>
+    <%- include("../fragments/head.ejs"); %>
+  </head>
+  <body>
+    <%- include("../fragments/header.ejs"); %>
+
+    <main>
+      <div id="err-coloane">
+        <div id="err-imag">
+          <img src="<%- locals.imagine %>" />
+        </div>
+        <section>
+          <h2><%- locals.titlu %></h2>
+          <p><%- locals.text %></p>
+        </section>
+      </div>
+    </main>
+
+    <%- include("../fragments/footer.ejs"); %>
+  </body>
+</html>
