@@ -1,0 +1,12 @@
+.video {
+  align-items: center;
+  margin-left: 50%;
+  transform: translateX(-40%);
+}
+video::cue {
+  background: linear-gradient(#1654a9, #accbe1);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

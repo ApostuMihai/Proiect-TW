@@ -11,6 +11,8 @@
   </head>
   <body>
     <%- include("../fragments/header") %>
+    <p id="watermark"></p>
+<p id="absolut"></p>
     <main>
       <section class="section-hero">
         <div class="hero">
@@ -52,7 +54,7 @@
       <section class="section-recommended">
         <div class="container">
           <h2 class="secondary-heading">
-            <span>TOP</span> new phones & gadgets
+            <span id="span">TOP</span> new phones & gadgets
           </h2>
           <p class="subheading">
             <ion-icon class="subheading-icon" name="flame-outline"></ion-icon>
@@ -60,7 +62,7 @@
 
           </p>
           <p>Ip: <%- locals.ip %></p>
-          <div class="recommended-items">
+          <div id="recommended-items" class="recommended-items">
 
             <div class="item">
               <div class="item-photo">
@@ -77,7 +79,7 @@
                   <li>Triple-camera system</li>
                   <li>A13 Bionic Chip</li>
                 </ul>
-                <a href="#" class="btn btn-item"
+                <a id="price-tag"href="#" class="btn btn-item"
                   >From <span class="item-price">600</span>&euro;</a
                 >
               </div>
@@ -126,7 +128,7 @@
           </div>
         </div>
         <div class="container all-phones">
-          <a href="" class="link">See all phones &rightarrow;</a>
+          <a href="" class="link" id="see-all">See all phones &rightarrow;</a>
         </div>
       </section>
 
