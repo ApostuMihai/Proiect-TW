@@ -1,7 +1,9 @@
+const { createECDH } = require("crypto");
 const express = require("express");
 const fs = require("fs");
 app = express();
 app.set("view engine", "ejs");
+app.use(express.static("public"));
 app.use("/resurse", express.static(__dirname + "/resurse"));
 // app.get("/index", function (req, res) {
 //   // console.log("ceva");
@@ -37,12 +39,14 @@ app.get("/*", function (req, res, next) {
 obGlobal = {
   erori: null,
 };
-function creatErrors() {
+function createErrors() {
   var continutFisier = fs
     .readFileSync(__dirname + "/resurse/json/erori.json")
     .toString("utf-8");
   obGlobal.erori = JSON.parse(continutFisier);
 }
+createErrors();
+
 function renderError(res, identificator, titlu, text, imagine) {
   var eroare = obGlobal.erori.info_erori.find(function (elem) {
     return elem.identificator == identificator;
@@ -64,5 +68,8 @@ function renderError(res, identificator, titlu, text, imagine) {
     res.render("pages/eroare", { titlu: titlu, text: text, imagine: imagine });
   }
 }
+app.get("/*ejs", function (req, res) {
+  renderError(res, 403);
+});
 app.listen(8080);
-console.log("merge ");
+console.log("merge c🐏");

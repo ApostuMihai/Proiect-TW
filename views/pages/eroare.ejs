@@ -7,22 +7,18 @@
     />
     <meta name="description" content="Official mobile phone retailer." />
     <title>BestPhone - Error</title>
+    <link rel="stylesheet" type="text/css" href="resurse/css/eroare.css" />
     <%- include("../fragments/head.ejs"); %>
   </head>
   <body>
     <%- include("../fragments/header.ejs"); %>
 
-    <main>
-      <div id="err-coloane">
-        <div id="err-imag">
-          <img src="<%- locals.imagine %>" />
-        </div>
-        <section>
-          <h2><%- locals.titlu %></h2>
-          <p><%- locals.text %></p>
-        </section>
-      </div>
-    </main>
+    <div id="err-coloane">
+      <img id="err-imag" src="<%- locals.imagine %>" alt="imagine eroare">
+      <h2> <%- locals.titlu %> </h2>
+      <p> <%- locals.text %> Întoarce-te la <a href="/index">pagina principală</a>.</p>
+  </div>
+</main>
 
     <%- include("../fragments/footer.ejs"); %>
   </body>
