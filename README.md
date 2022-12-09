@@ -1,1 +1,1 @@
-Site-ul unui retailer de telefoane mobile
+Site-ul fictiv al unui retailer de telefoane mobile
