@@ -12,8 +12,39 @@
   <body>
     <%- include("../fragments/header") %>
     <main>
-      <h1>A2-a pagina</h1>
+      <div class="container">
+        <div class="story">
+          <h2 class="despre-h2">Our story</h2>
+          <p class="despre-p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quod, quia, voluptatibus quae voluptatem quibusdam
+            voluptatum quos quidem quas nesciunt. Quisquam, quae. Quisquam
+            voluptates, quod, quia, voluptatibus quae voluptatem quibusdam
+            voluptatum quos quidem quas nesciunt. Quisquam, quae.
+          </p>
+        </div>
+        <div class="about">
+          <h2 class="despre-h2">About us</h2>
+          <p class="despre-p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quod, quia, voluptatibus quae voluptatem quibusdam
+            voluptatum quos quidem quas nesciunt. Quisquam, quae. Quisquam
+            voluptates, quod, quia, voluptatibus quae voluptatem quibusdam
+            voluptatum quos quidem quas nesciunt. Quisquam, quae.
+          </p>
+        </div>
+      </div>
+      <hr class="box" />
+      <%- include("../fragments/galerie-statica.ejs") %>
+      <div id="imagine">
+        <h2 class="despre-h2"></h2>
+      </div>
+      <div class="container">
+        <div id="text">Efect reflexie</div>
+        <div id="text-reflectat">Efect reflexie</div>
+      </div>
     </main>
+
     <%- include("../fragments/footer") %>
   </body>
 </html>

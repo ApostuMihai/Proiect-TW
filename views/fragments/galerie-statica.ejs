@@ -1,0 +1,24 @@
+<section id="galerie-statica">
+  <h2 class="despre-h2">Galerie foto</h2>
+  <div id="grid-galerie">
+    <% for (let imag of locals.imagini){
+     var d = new Date();
+     time =d.getHours();
+    var perioada_zi = "candva";
+    
+     if (time >= "5" && time <"12"){ perioada_zi="dimineata" };
+     if (time >="12" && time <"20"){ perioada_zi = "zi" };
+    if(time>="20" || time <"5") {perioada_zi = "noapte"};
+    if(imag.timp && imag.timp.includes(perioada_zi)) { %>
+    
+
+    <figure>
+      <source srcset="<%- imag.fisier_mediu %>" media="(max-width: 900px)" />
+      <source srcset="<%- imag.fisier_mic %>" media="(max-width: 600px)" />
+      <img src="<%- imag.fisier %>" alt="imagine" />
+      <figcaption><%- imag.descriere %></figcaption>
+    </figure>
+    <%} %>
+    <%} %>
+  </div>
+</section>

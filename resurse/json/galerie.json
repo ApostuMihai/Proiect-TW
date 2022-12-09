@@ -2,35 +2,64 @@
   "cale_galerie": "resurse/images/galerie",
   "imagini": [
     {
-      "fisier": "briose-frisca.png",
-      "descriere": "Brioșe",
-      "luni": ["martie", "februarie", "iunie"]
+      "cale_imagine": "imagine.png",
+      "descriere": "Woman on her phone",
+      "timp": "dimineata"
     },
     {
-      "fisier": "clatite.png",
-      "descriere": "Clătite cu dulceață",
-      "luni": ["ianuarie", "februarie", "iunie"]
+      "cale_imagine": "imagine(2).png",
+      "descriere": "Phone on a table",
+      "timp": "noapte"
     },
     {
-      "fisier": "gogosi.png",
-      "descriere": "Gogoși glazurate",
-      "luni": ["ianuarie", "februarie", "iunie", "martie"]
+      "cale_imagine": "imagine(3).png",
+      "descriere": "Levitating phone",
+      "timp": "zi"
     },
     {
-      "fisier": "tort-scortisoara.png",
-      "descriere": "Tort cu scorțisoară"
+      "cale_imagine": "imagine(4).png",
+      "descriere": "Person on their phone",
+      "timp": "zi"
     },
     {
-      "fisier": "prajitura-ciocolata.png",
-      "descriere": "Prăjitură cu ciocolată"
+      "cale_imagine": "imagine(5).png",
+      "descriere": "Person using laptop & phone",
+      "timp": "zi"
     },
     {
-      "fisier": "tarta-afine.png",
-      "descriere": "Tartă cu afine"
+      "cale_imagine": "imagine(6).png",
+      "descriere": "Phone on a table",
+      "timp": "zi"
     },
     {
-      "fisier": "tort-trandafiri.png",
-      "descriere": "Tort special"
+      "cale_imagine": "imagine(7).png",
+      "descriere": "Levitating phone",
+      "timp": "zi"
+    },
+    {
+      "cale_imagine": "imagine(8).png",
+      "descriere": "Phone on a table",
+      "timp": "zi"
+    },
+    {
+      "cale_imagine": "imagine(9).png",
+      "descriere": "Holding a phone",
+      "timp": "zi"
+    },
+    {
+      "cale_imagine": "imagine(10).png",
+      "descriere": "Person using a phone",
+      "timp": "zi"
+    },
+    {
+      "cale_imagine": "imagine(11).png",
+      "descriere": "Person on their phone",
+      "timp": "zi"
+    },
+    {
+      "cale_imagine": "imagine(12).png",
+      "descriere": "Person using their phone",
+      "timp": "noapte"
     }
   ]
 }
