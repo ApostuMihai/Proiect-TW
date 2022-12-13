@@ -9,10 +9,13 @@ app = express();
 app.set("view engine", "ejs");
 app.use("/resurse", express.static(__dirname + "/resurse"));
 
+
 obGlobal = {
   erori: null,
   imagini: null,
 };
+
+
 
 function createImages() {
   var continutFisier = fs
@@ -24,7 +27,6 @@ function createImages() {
   const dim_mic = 150;
   obGlobal.imagini = obiect.imagini;
   obGlobal.imagini.forEach(function (elem) {
-    // "briose-frisca.png" -> ["briose-frisca", "png"]
     [nume_fisier, extensie] = elem.cale_imagine.split(".");
 
     if (!fs.existsSync(obiect.cale_galerie + "/mediu/")) {

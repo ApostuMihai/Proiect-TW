@@ -31,7 +31,6 @@ hr {
     /* bottom  gradient*/ linear-gradient(blue 0 0) center;
   /* linie mijloc */
   background-size: 100% calc(100% / 3);
-  /* the 3 with the same size */
   background-repeat: no-repeat;
 }
 #imagine {
@@ -79,8 +78,8 @@ hr {
 }
 #text-reflectat {
   position: absolute;
-  left: 22.8%;
-  top: 84%;
+  left: 0%;
+  top: 100%;
   transform-origin: 0 0;
   /*conetaza ordinea transformarilor!*/
   transform: rotateX(180deg) skew(-45deg) scaleY(0.5) translate(10px, -25px);

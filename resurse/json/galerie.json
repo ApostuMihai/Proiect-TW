@@ -17,6 +17,21 @@
       "timp": "zi"
     },
     {
+      "cale_imagine": "imagine(3).png",
+      "descriere": "Levitating phone",
+      "timp": "zi"
+    },
+    {
+      "cale_imagine": "imagine(3).png",
+      "descriere": "Levitating phone",
+      "timp": "zi"
+    },
+    {
+      "cale_imagine": "imagine(3).png",
+      "descriere": "Levitating phone",
+      "timp": "zi"
+    },
+    {
       "cale_imagine": "imagine(4).png",
       "descriere": "Person on their phone",
       "timp": "zi"
@@ -60,6 +75,67 @@
       "cale_imagine": "imagine(12).png",
       "descriere": "Person using their phone",
       "timp": "noapte"
+    },
+    {
+      "cale_imagine": "imagine(12).png",
+      "descriere": "Person using their phone",
+      "timp": "noapte",
+      "copyright": "Photo by Plann from Pexels"
+    },
+    {
+      "cale_imagine": "imagine.png",
+      "descriere": "Woman on her phone",
+      "timp": "dimineata"
+    },
+    {
+      "cale_imagine": "imagine(2).png",
+      "descriere": "Phone on a table",
+      "timp": "noapte"
+    },
+    {
+      "cale_imagine": "imagine(3).png",
+      "descriere": "Levitating phone",
+      "timp": "noapte"
+    },
+    {
+      "cale_imagine": "imagine(4).png",
+      "descriere": "Person on their phone",
+      "timp": "noapte"
+    },
+    {
+      "cale_imagine": "imagine(5).png",
+      "descriere": "Person using laptop & phone",
+      "timp": "noapte"
+    },
+    {
+      "cale_imagine": "imagine(6).png",
+      "descriere": "Phone on a table",
+      "timp": "noapte"
+    },
+    {
+      "cale_imagine": "imagine(7).png",
+      "descriere": "Levitating phone",
+      "timp": "noapte"
+    },
+    {
+      "cale_imagine": "imagine(8).png",
+      "descriere": "Phone on a table",
+      "timp": "dimineata"
+    },
+    {
+      "cale_imagine": "imagine(9).png",
+      "descriere": "Holding a phone",
+      "timp": "dimineata"
+    },
+    {
+      "cale_imagine": "imagine(10).png",
+      "descriere": "Person using a phone",
+      "timp": "noapte"
+    },
+    {
+      "cale_imagine": "imagine(11).png",
+      "descriere": "Person on their phone",
+      "timp": "zi"
     }
   ]
 }

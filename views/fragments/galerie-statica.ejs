@@ -1,15 +1,38 @@
 <section id="galerie-statica">
   <h2 class="despre-h2">Galerie foto</h2>
   <div id="grid-galerie">
+    <% let nr_imag = 0; %>
+    <% let nr_imag_max =0; %>
+    <% for (let imag of locals.imagini){
+     var d = new Date();
+     time =d.getHours();
+     console.log(typeof time);
+    var perioada_zi = "candva";
+     if (time >= 5 && time <12){ perioada_zi="dimineata" };
+     if (time >=12 && time <20){ perioada_zi = "zi" };
+     if (time >=20 || time <5) {perioada_zi = "noapte"};
+    
+    if(imag.timp && imag.timp.includes(perioada_zi)) {
+      nr_imag +=1;
+       %>
+    
+
+    
+    <%} 
+    %>
+    <%} %>
+
     <% for (let imag of locals.imagini){
      var d = new Date();
      time =d.getHours();
     var perioada_zi = "candva";
-    
      if (time >= "5" && time <"12"){ perioada_zi="dimineata" };
      if (time >="12" && time <"20"){ perioada_zi = "zi" };
-    if(time>="20" || time <"5") {perioada_zi = "noapte"};
-    if(imag.timp && imag.timp.includes(perioada_zi)) { %>
+     if (time>="20" || time <"5") {perioada_zi = "noapte"};
+    
+    if(imag.timp && imag.timp.includes(perioada_zi)) {
+      nr_imag_max +=1;
+       %>
     
 
     <figure>
@@ -18,7 +41,8 @@
       <img src="<%- imag.fisier %>" alt="imagine" />
       <figcaption><%- imag.descriere %></figcaption>
     </figure>
-    <%} %>
+    <%} if(nr_imag_max == nr_imag - nr_imag%3){break;} 
+    %>
     <%} %>
   </div>
 </section>
