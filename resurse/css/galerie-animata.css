@@ -3,7 +3,7 @@
   width: 100vw;
   /* background-color: black; */
   margin: 0rem;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #image-track {
   display: flex;

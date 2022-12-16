@@ -92,7 +92,7 @@ hr {
   mask-repeat: no-repeat;
 }
 #text-reflectat:hover{
-  animation: animatie_text_reflectat 1.1s linear infinite;;
+  animation: animatie_text_reflectat 1.1s linear infinite;
 }
 #text {
   position: relative;

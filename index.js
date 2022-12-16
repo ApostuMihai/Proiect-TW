@@ -3,6 +3,16 @@ const fs = require("fs");
 const sharp = require("sharp");
 const ejs = require("ejs");
 const sass = require("sass");
+const {Client} = require("pg")
+
+var client = new Client({
+  database:"Produse_TW",
+  user:"apo",
+  password:"mihai",
+  host:"localhost",
+  port:5432
+});
+client.connect();
 
 app = express();
 
